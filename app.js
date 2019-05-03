@@ -35,7 +35,6 @@ app.use('/', index);
 app.use('/', movies);
 app.use('/', productDetails);
 
-
 app.listen(3000, (err)=> {
   console.log("listening")
 })
